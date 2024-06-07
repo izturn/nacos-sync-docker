@@ -41,7 +41,7 @@ spec:
         - containerPort: 8083
         volumeMounts:
         - name: config-volume
-          mountPath: /nacos-sync/config/application.properties
+          mountPath: /nacos-sync/conf/application.properties
           subPath: application.properties
       volumes:
       - name: config-volume
